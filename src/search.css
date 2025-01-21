@@ -58,10 +58,37 @@ button {
   letter-spacing: 0.04em;
   text-align: left;
 
+
 }
 
 button:hover {
   background-color: #6C8CFF;
+}
+
+.loadBtn {
+  width: 130px;
+  height: 40px;
+  padding: 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #4E75FF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.load-more-container {
+  display: flex;            /* Używamy flexboxa do wyśrodkowania */
+  justify-content: center;  /* Wyśrodkowanie poziome */
+  margin-top: 20px;        /* Przestrzeń nad przyciskiem */
 }
 
 .loader {
@@ -112,6 +139,7 @@ button:hover {
   gap: 24px;
   margin: 20px auto;
   max-width: 1200px;
+
 }
 
 .image-item {
